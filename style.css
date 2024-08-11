@@ -271,8 +271,8 @@ nav a:hover {
   0% {
     width: 0%;
   }
-  25% {
-    width: 25%;
+  75% {
+    width: 75%;
   }
 }
 
@@ -280,24 +280,16 @@ nav a:hover {
   0% {
     width: 0%;
   }
-  /* 
-  25% {
-    width: 50%;
-  } */
   50% {
     width: 75%;
   }
-  /* 
-  75% {
-    width: 85%;
-  } */
   100% {
     width: 100%;
   }
 }
 
 .measure1 {
-  width: 25%;
+  width: 75%;
   animation: measure-1 4s linear;
 }
 .measure2 {
