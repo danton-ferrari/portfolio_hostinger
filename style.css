@@ -625,7 +625,7 @@ nav a:hover {
 
   /* Nav-start */
   .navbar.visible {
-    justify-content: end;
+    justify-content: start;
   }
   /* Nav-end */
 
