@@ -169,7 +169,7 @@ nav a:hover {
 }
 
 .qualificacoes-lista {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   margin: 10px 30px 30px 30px;
 }
@@ -592,6 +592,7 @@ nav a:hover {
   /* Container-start */
   .container {
     margin: 0;
+    padding-right: 25px;
     gap: 24px;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: 65% 35%;
@@ -686,6 +687,97 @@ nav a:hover {
   /* Header-end */
 
   /* Sobre-mim-start */
+
+  /* .experience {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    gap: 24px;
+  }
+  
+  .experience p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+  }
+  
+  .experience .experience-time {
+    flex-direction: column;
+  }
+  
+  .experience .experience-language,
+  .experience .experience-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .experience .experience-language .experience-unit {
+    width: 300px;
+    height: 30px;
+    border-radius: 24px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .experience .experience-language .experience-unit .experience-measure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    border-radius: 24px;
+    height: 30px;
+    border: 1px solid white;
+    background: linear-gradient(90deg, #000177 2.62%, #006bcb 93.38%);
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .experience-h2 {
+    display: flex;
+  }
+  
+  .experience-h2 h2 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+    color: white;
+  } */
+
+  .curriculo ul li {
+    line-height: 50px;
+  }
+
+  .qualificacoes-lista {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .experiencias-lista {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  h2.qualificacoes-h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  h2.experiencias-h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
   .container .sobre-mim {
     align-items: center;
     display: grid;
@@ -696,8 +788,9 @@ nav a:hover {
   }
 
   .curriculo {
+    padding: auto;
     max-width: none;
-    max-height: 350px;
+    max-height: none;
     flex-direction: row;
     border-radius: 24px;
     background: linear-gradient(90deg, #000177 2.62%, #006bcb 93.38%);
@@ -705,7 +798,7 @@ nav a:hover {
 
   .experiencias,
   .qualificacoes {
-    max-height: 350px;
+    max-height: none;
     background: none;
   }
 
