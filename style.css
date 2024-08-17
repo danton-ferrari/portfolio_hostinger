@@ -788,6 +788,8 @@ nav a:hover {
   }
 
   .curriculo {
+    margin-left: 20px;
+    margin-right: 20px;
     padding: auto;
     max-width: none;
     max-height: none;
@@ -800,6 +802,11 @@ nav a:hover {
   .qualificacoes {
     max-height: none;
     background: none;
+  }
+
+  .experience-h2 h2 {
+    font-size: 50px;
+    font-weight: 600px;
   }
 
   .experience {
