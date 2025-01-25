@@ -78,15 +78,18 @@ nav a:hover {
 /* Header-start */
 .container header {
   align-content: center;
-  padding-top: 170px;
-  padding-bottom: 50px;
+  /* padding-top: 170px; */
+  /* padding-bottom: 50px; */
   grid-row-start: 1;
   grid-row-end: 1;
+  height: 100vh;
 }
 .header {
   display: grid;
   grid-template-rows: repeat(3, auto);
-  gap: 24px;
+  gap: 24px; /* 80px*/
+  max-width: 100%;
+  height: 80%;
 }
 
 .header-h1-1 h1 {
@@ -94,8 +97,8 @@ nav a:hover {
   font-style: italic;
   grid-row-start: 1;
   grid-row-end: 1;
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: 35px; /*40px*/
   color: white;
   line-height: 100%;
   text-align: center;
@@ -107,10 +110,30 @@ nav a:hover {
   grid-row-start: 2;
   grid-row-end: 2;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
+}
+
+.header-h1-1 {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  align-items: end;
+  justify-content: center;
+}
+
+.header-h1-2 {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.header-h1-2 h1 .break {
+  display: block;
 }
 
 .header img {
@@ -118,9 +141,16 @@ nav a:hover {
   grid-row-start: 3;
   grid-row-end: 3;
   border-radius: 24px;
-  width: 325px;
-  height: 277px;
+  max-width: 100%;
+  height: 300px;
   border: 0.5px solid white;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .header-img #eu {
@@ -636,6 +666,7 @@ nav a:hover {
   .header {
     grid-template-rows: 100%;
     grid-template-columns: repeat(3, auto);
+    height: 100%;
   }
 
   .header-h1-1 h1 {
@@ -644,9 +675,19 @@ nav a:hover {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 70px;
     font-size: 50px;
+  }
+
+  .header-h1-1 {
+    align-items: baseline;
+    justify-content: flex-end;
+  }
+
+  .header-h1-2 {
+    align-items: end;
+    justify-content: flex-start;
   }
 
   .header-h1-2 h1 {
@@ -655,9 +696,13 @@ nav a:hover {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 70px;
     font-size: 50px;
+  }
+
+  .header-h1-2 h1 .break {
+    display: inline;
   }
 
   .header .header-img {
@@ -675,6 +720,7 @@ nav a:hover {
     border-bottom-right-radius: 50%;
     border-left: none;
     border-right: none;
+    max-width: none;
   }
 
   .header-img {
