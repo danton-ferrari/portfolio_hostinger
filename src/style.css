@@ -99,9 +99,10 @@ nav a:hover {
 }
 
 .header-h1-1 h1 {
+  font-family: monospace;
   grid-row-start: 1;
   grid-row-end: 1;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 50px; /*40px*/
   color: white;
   line-height: 100%;
@@ -113,7 +114,7 @@ nav a:hover {
   font-style: italic;
   grid-row-start: 2;
   grid-row-end: 2;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   color: white;
   line-height: 45px;
