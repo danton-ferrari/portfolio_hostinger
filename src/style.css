@@ -92,9 +92,9 @@ nav a:hover {
 .header {
   display: grid;
   grid-template-rows: repeat(3, auto);
-  gap: 24px; /* 80px*/
+  gap: 2px; /* 80px*/
   max-width: 100%;
-  height: 70%;
+  height: 60%;
   align-content: baseline;
 }
 
@@ -103,7 +103,7 @@ nav a:hover {
   grid-row-start: 1;
   grid-row-end: 1;
   font-weight: 400;
-  font-size: 50px; /*40px*/
+  font-size: 45px; /*40px*/
   color: white;
   line-height: 100%;
   text-align: center;
@@ -145,6 +145,11 @@ nav a:hover {
   max-width: 100%;
   height: 300px;
   border: 0.5px solid white;
+}
+
+.nada {
+  height: 120px;
+  width: 100%;
 }
 
 .header-img {
@@ -666,7 +671,7 @@ nav a:hover {
 
   .header {
     grid-template-rows: 100%;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     height: 100%;
   }
 
@@ -681,6 +686,15 @@ nav a:hover {
     font-weight: 500;
     line-height: 70px;
     font-size: 50px;
+  }
+
+  .header .noda {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
   }
 
   .header-h1-1 {
