@@ -1,5 +1,5 @@
-const navbar = document
-  .querySelector(".pdfDownloadLink")
+document
+  .getElementById("pdfDownloadLink")
   .addEventListener("click", function (event) {
     var link = this.href;
     var xhr = new XMLHttpRequest();
