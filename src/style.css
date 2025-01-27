@@ -671,8 +671,9 @@ nav a:hover {
 
   .header {
     grid-template-rows: 100%;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: auto auto auto 0px;
     height: 100%;
+    justify-content: center;
   }
 
   .header-h1-1 h1 {
@@ -688,7 +689,7 @@ nav a:hover {
     font-size: 50px;
   }
 
-  .header .noda {
+  .nada {
     display: none !important;
     height: 0 !important;
     width: 0 !important;
@@ -724,6 +725,8 @@ nav a:hover {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
   .header img {
